@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-body {
-    background-color: blueviolet;
-}
-
-
 h1 {
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -17,13 +12,24 @@ h1 {
     font-family: 'Righteous', cursive;
 }
 
-.navbar-brand {
+.navbar-brand, .nav-link {
     color: white !important;
 }
 
-.nav-link {
-    color: white !important;
-}
+
+
+
+  img {
+    max-height: 500px !important;
+    min-height: 500px !important;
+    min-width: 800px;
+    max-width: 500px;
+    text-align: center;
+
+    object-fit: cover;
+    object-position: center;
+  }
+
 
 
 
