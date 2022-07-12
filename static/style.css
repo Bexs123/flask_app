@@ -23,6 +23,11 @@ body{
   background-color: #afb1ae;
 }
 
+#dropdownMenuLink:hover {
+  color: #afb1ae;
+  background-color: cornsilk;
+}
+
 /*dropdown item color of the other links*/
 .dropdown-item {
   color: white;
@@ -35,16 +40,22 @@ body{
 }
 
 /*Styling settings for headings*/
-h1 {
+h1, h2 {
   text-align: center;
   font-family: 'Righteous', cursive;
   color: white;
-  font-size: 6rem;
+  font-size: 3.5rem;
 }
 
 /*Made the headings upon hover change color */
 h1:hover {
   color: #afb1ae;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  /* font-size: 1rem; */
 }
 
 /*Styling settings changed on the carousel to make the pictures smaller and in the center*/
@@ -56,6 +67,18 @@ h1:hover {
   margin-right: auto;
   display: block;
 }
+
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* font-style: oblique; */
+  font-style: italic;
+}
+
 
 /*All the content styling settings*/
 article {
