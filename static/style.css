@@ -1,93 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-body{
-  background-color: #565e64;
-  font-family: 'Righteous', cursive;
-
-}
-
 
 *{box-sizing: border-box; margin: 0%; padding: 0%;}
 
-.navbar {
-  background-color: #afb1ae !important;
-  /* color: white !important; */
+body{
+  background-color: #565e64;
+  font-family: 'Righteous', cursive;
 }
 
-/* .navbar:hover{
-  color: #565e64;
-} */
+/*navbar settings*/
+.navbar {
+  background-color: #afb1ae !important;
+}
 
+/*Links on the navbar*/
 .navbar-brand, .nav-link {
   color: white !important;
   font-size: 1.7rem;
 }
 
-/* .navbar-brand:hover, .nav-link:hover {
-  color: #565e64;
-} */
-
-
+/*dropdown menu with the other links*/
 .dropdown-menu {
   background-color: #afb1ae;
 }
 
+/*dropdown item color of the other links*/
 .dropdown-item {
   color: white;
-  /* color: aliceblue; */
-  /* color:whitesmoke; */
-/* color: antiquewhite; */
 }
 
+/*On the dropdrown I have changed the background color and font color to change on hover*/
 .dropdown-item:hover {
   background-color: #565e64;
   color: #afb1ae;
 }
 
-
+/*Styling settings for headings*/
 h1 {
   text-align: center;
   font-family: 'Righteous', cursive;
-  /* color: white; */
   color: white;
   font-size: 6rem;
 }
 
+/*Made the headings upon hover change color */
 h1:hover {
   color: #afb1ae;
-  transition-duration: 0.5s;
-  /* transition-timing-function: ease-in-out; */
-  /* transition: ease-out; */
 }
 
-
-
-
-
-
-
-article {
-  margin-top: 3%;
-}
-
-p {
-  font-family: 'Righteous', cursive;
-  /* font-weight: bold; */
-  font-size: 1.1em;
-  /* letter-spacing: 1rem; */
-  /* letter-spacing: 1em; */
-  letter-spacing: 0.1cm;
-
-  color: #010b13;
-  /* margin-top: 40px; */
-  width: 80%;
-  height: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-
-}
-
-
+/*Styling settings changed on the carousel to make the pictures smaller and in the center*/
 #carouselExampleIndicators {
   margin-top: 40px;
   width: 50%;
@@ -97,9 +57,19 @@ p {
   display: block;
 }
 
-/* .header {
-  margin-top: 100px;
-} */
+/*All the content styling settings*/
+article {
+  margin-top: 3%;
+  font-family: 'Righteous', cursive;
+  font-size: 1.1em;
+  letter-spacing: 0.1cm;
+  color: #010b13;
+  width: 80%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 
 
@@ -110,7 +80,7 @@ p {
 
 
 
-
+/*Media Queries*/
 /* @media (orientation: portrait) {
     body{
         background-color: hotpink;
