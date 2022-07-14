@@ -129,10 +129,24 @@ img {
 }
 
 
+
+.driver {
+margin-left: 30%;
+}
+
+table {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
 td, th {
   border: 3px solid #565e64;
   padding: 0.5rem;
   background-color: #afb1ae;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* display: block; */
 }
 
 .flag {

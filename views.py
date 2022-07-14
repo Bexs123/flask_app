@@ -6,25 +6,25 @@ my_view = Blueprint('my_view', __name__)
 def index():
     return render_template("index.html")
 
-@my_view.route('/page1')
-def page1():
-    return render_template("page1.html")
+@my_view.route('/teams')
+def teams():
+    return render_template("teams.html")
 
-@my_view.route('/page2')
-def page2():
-    return render_template("page2.html")
+@my_view.route('/cars')
+def cars():
+    return render_template("cars.html")
 
-@my_view.route('/page3')
-def page3():
-    return render_template("page3.html")
+@my_view.route('/calender')
+def calender():
+    return render_template("calender.html")
 
-@my_view.route('/page4')
-def page4():
-    return render_template("page4.html")
+@my_view.route('/circuits')
+def circuits():
+    return render_template("circuits.html")
 
-@my_view.route('/page5')
-def page5():
-    return render_template("page5.html")
+@my_view.route('/driver')
+def driver():
+    return render_template("driver.html")
 
 
 @my_view.route('/home')
