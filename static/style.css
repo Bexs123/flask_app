@@ -2,6 +2,14 @@
 
 *{box-sizing: border-box; margin: 0%; padding: 0%;}
 
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+
 body{
   background-color: #565e64;
   font-family: 'Righteous', cursive;
@@ -54,7 +62,7 @@ h1:hover {
 
 h3 {
   text-align: center;
-  color: white;
+  color: #565e64;
   /* font-size: 1rem; */
 }
 
@@ -101,9 +109,36 @@ article {
 
 
 
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 10px;
+}
+
+.box {
+  background: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
+}
+
+img {
+  height: 75%;
+  width: 95%;
+}
 
 
+td, th {
+  border: 3px solid #565e64;
+  padding: 0.5rem;
+  background-color: #afb1ae;
+}
 
+.flag {
+  height: 5%;
+  width: 5%;
+}
 
 
 /*Media Queries*/
