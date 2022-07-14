@@ -60,7 +60,7 @@ h1:hover {
   color: #afb1ae;
 }
 
-h3 {
+h3, h4 {
   text-align: center;
   color: #565e64;
   /* font-size: 1rem; */
@@ -139,6 +139,18 @@ td, th {
   height: 5%;
   width: 5%;
 }
+
+
+footer {
+  margin-top: 2rem;
+  background: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
 
 
 /*Media Queries*/
