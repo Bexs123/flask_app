@@ -2,13 +2,13 @@
 
 *{box-sizing: border-box; margin: 0%; padding: 0%;}
 
+/*CSS Varables*/
 :root {
   --primary: #ddd;
   --dark: #333;
   --light: #fff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
-
 
 body{
   background-color: #565e64;
@@ -66,16 +66,24 @@ h3, h4 {
   /* font-size: 1rem; */
 }
 
+.title {
+  text-align:center;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 /*Styling settings changed on the carousel to make the pictures smaller and in the center*/
 #carouselExampleIndicators {
   margin-top: 40px;
-  width: 50%;
+  width: 40%;
   height: 40%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-
 
 blockquote {
   display: block;
@@ -83,13 +91,9 @@ blockquote {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
-  /* font-style: oblique; */
   font-style: italic;
   color: #e3e5e7;
-  /* color: #c8cccf; */
-  /* color :#acb3b8; */
 }
-
 
 /*All the content styling settings*/
 article {
@@ -104,10 +108,6 @@ article {
   margin-right: auto;
   display: block;
 }
-
-
-
-
 
 .boxes {
   display: grid;
@@ -128,32 +128,29 @@ img {
   width: 95%;
 }
 
-
-
 .driver {
 margin-left: 30%;
+}
+
+.teams {
+  margin-left: 30%;
 }
 
 table {
   margin-left: 20%;
   margin-right: 20%;
-
 }
 
 td, th {
   border: 3px solid #565e64;
   padding: 0.5rem;
   background-color: #afb1ae;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* display: block; */
 }
 
 .flag {
   height: 5%;
   width: 5%;
 }
-
 
 footer {
   margin-top: 2rem;
@@ -163,10 +160,7 @@ footer {
   padding: 1rem;
 }
 
-
-
-
-
+/*This where an inital test of Media Queries*/
 /*Media Queries*/
 /* @media (orientation: portrait) {
     body{
